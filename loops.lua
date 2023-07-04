@@ -22,3 +22,15 @@ repeat
 	print("b: ", b)
 	b = b + 1
 until (b == 20)
+print()
+
+-- break
+c = 20
+while (c < 100)
+do
+	print("c: ", c)
+	if (c == 25) then
+		break
+	end
+	c = c + 1
+end
